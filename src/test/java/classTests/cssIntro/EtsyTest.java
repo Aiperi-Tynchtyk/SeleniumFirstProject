@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class EtsyTest {
     public static void main(String[] args) throws InterruptedException {
@@ -19,7 +20,7 @@ public class EtsyTest {
         click on "x" button on the search input
         remove the enter "wall decor"
          */
-        WebDriver driver=new ChromeDriver();
+        WebDriver driver=new FirefoxDriver();
         driver.get("https://www.etsy.com/?ref=lgo");
 
 
